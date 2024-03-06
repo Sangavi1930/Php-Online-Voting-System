@@ -1,0 +1,302 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+   /* background-color: #5bc0de;*/
+}
+
+#container {
+	background-color: #eee;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+
+}
+
+#loginform {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#loginform input[type="text"], input[type="password"],input[type="submit"], input[type="email"] {
+    width: 280px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.addcandidate{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.addcandidate input[type="text"], input[type="password"],input[type="submit"], input[type="email"]{
+    width: 280px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.addcandidate select{
+	width: 280px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#loginform select{
+	width: 280px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.fa-check {
+	color: white;
+}
+.fa-user-o {
+	color: white;
+
+
+}
+.fa-user-secret {
+	color:white;
+}
+
+.fa-home {
+	color:#ffffff;
+}
+
+.fa-circle-o-notch {
+	color:#ffffff;
+}
+.header {
+	height:100px;
+	width:auto;
+	background-color: #666633;
+	color:#ffffff;
+	font-weight: bold;
+}
+
+.header h2 {
+	line-height: 100px;
+	text-align: center;
+}
+
+.navigation ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+
+ }
+
+.navigation ul li {
+	float: left;
+}
+
+.navigation ul li:last-child {
+	float: right;
+}
+
+.navigation {
+	width: 100%;
+	height: 40px;
+	background-color: #5bc0de;
+}
+
+.navigation ul li a {
+	display: inline-block;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	vertical-align: center;
+
+
+}
+
+.listCandidates {
+	list-style-type: none;
+}
+
+.listCandidates li{
+	list-style-type: none;
+	height: 30px;
+}
+
+.listCandidates li {
+	
+	width:300px;
+	text-align: center;
+	background-color: #5bc0de;
+	font-weight: bold;
+	font-family: vgerdana;
+	margin-bottom: 10px;
+	line-height: 30px;
+	color:white;
+}
+
+.viewcandidate {
+	/*text-align: left;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+
+.navigation ul li a:hover {
+	background-color: white;
+	color:black;
+}
+
+
+
+footer{
+	background-color: #666633;
+	padding:20px;
+	text-align: center;
+	color:#ffffff;
+	font-weight: bold;
+	clear: both;
+}
+
+#candidatesdiv {
+	width:310px;
+	float:left;
+	text-align:center;
+	border:1px solid #5bc0de;
+	margin:10px;
+	height:300px;
+	position: relative;
+
+}
+
+.votingsection {
+
+	width: 100%;
+	height: 80px;
+	bottom: 0;
+	position: absolute;
+	padding: 5px;
+	
+}
+
+
+.votingsection input[type="submit"] {
+	width: 210px;
+	height: 60px;
+
+
+}
+
+
+
+.welcom {
+
+	float: right;
+}
+.studentvote {
+	clear: left;
+}
+
+
+#onlinevotingsystem input[type="submit"] {
+	width: 280px;
+	padding: 13px;
+}
+
+#onlinevotingsystem select {
+	width: 680px;
+	padding: 11px;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+	margin-right: 25px;
+	margin-left: 10px;
+}
+
+.viewstudentsvotesresults {
+	clear: both;
+}
+
+
+
+
+
+table, td {
+    border: 1px solid black;
+    width: 100%;
+   
+
+}
+
+ td {
+    padding: 15px;
+    width: 100px;
+
+
+}
+
+
+
+table {
+	border-collapse: collapse;
+}
+
+#alreadyVoted {
+	padding-left:30px;
+}
+
+
+#alreadyVoted ol li {
+    width:300px;
+	text-align: left;
+	background-color: #5bc0de;
+	font-family: vgerdana;
+	margin-bottom: 3px;
+	line-height: 15px;
+	color:#ffffff;
+	padding-left:30px;
+}
+
+#resultsperperson{
+	height:150px;
+	width:300px;
+	background-color:#3399ff;
+	margin-right:17px;
+	margin-left:16px;
+	margin-bottom:10px;
+	display:inline-block;
+	position:relative;
+	color:white;
+	font-weight:bold;
+}
+
+#resultsperpersonhead {
+	height:25px;
+	line-height:25px;
+	padding-left:10px;
+	width:300px;
+	background-color:#99ccff;
+}
+
+#resultsperpersoncotent {
+	text-align:center;
+	font-family:courier;
+	font-size:50px;
+	vertical-align:center;
+}
+
+#resultsperpersonfooter {
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	width:300px;
+	background-color:#99ccff;
+	position:absolute;
+	bottom:0px;
+}
