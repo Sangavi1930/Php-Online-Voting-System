@@ -87,11 +87,6 @@ if(isset($_GET['onlinevotingsystemvote'])) {
 
 ?>
 
-
-<footer>
-	<p> Student Online Voting System <?php echo Date('Y'); ?> All Rights Reserved</p>
-</footer>
-
 </div>
 	</body>
 	</html>
