@@ -80,9 +80,5 @@ else if(isset($_GET['AddPosition'])){
 	Want To Register ? <a href="register.php">Click here</a>
 </div>-->
 
-
-<footer>
-	<p> Student Online Voting System <?php echo Date('Y'); ?> All Rights Reserved</p>
-<footer>
 	</body>
 	</html>
